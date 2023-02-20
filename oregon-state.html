@@ -1,113 +1,130 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--[if lte IE 7]> <html lang="en" class="ie ie7 pine"> <![endif]-->
 <!--[if IE 8]> <html lang="en" class="ie ie8 pine"> <![endif]-->
 <!--[if gt IE 8]><!--><html class="pine" lang="en"><!--<![endif]-->
-<head profile="https://www.w3.org/1999/xhtml/vocab">
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  <head profile="https://www.w3.org/1999/xhtml/vocab">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-54WQT99');</script>
-<!-- End Google Tag Manager -->
+    <!-- End Google Tag Manager -->
 
-  
-<!-- LOCALIST COMMENT - START head_tags -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="shortcut icon" href="https://pine.oregonstate.edu/sites/all/themes/doug_fir/favicon.ico" type="image/ico" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <!-- These will insert some CSS to hide or show elements based on our theme settings -->
-<!-- LOCALIST COMMENT - PLACEHOLDER localist_styles -->
-<!-- LOCALIST COMMENT - PLACEHOLDER localist_js -->
-<script type="text/javascript">
-window.onload = function () {
-    var path = window.location.pathname;
-    var bend = document.getElementById("bend");
-    var corvallis = document.getElementById("corvallis");
-    var newport = document.getElementById("newport");
-    var portland = document.getElementById("portland");
-    var extension = document.getElementById("extension");
-    var home = document.getElementById("home");
-    var cascadeslogo = document.getElementById("cascadeslogo");
-    var mainlogo = document.getElementById("mainlogo");
-    if (path === "/bend") {
-     bend.className += " active";
-     cascadeslogo.className += " active";
-     mainlogo.className += " remove";
-    }
-    if (path === "/corvallis") {
-     corvallis.className += " active";
-    }
-    if (path === "/") {
-     home.className += " active";
-    }
-    if (path === "/portland") {
-     portland.className += " active";
-    }
-    if (path === "/newport") {
-     newport.className += " active";
-    }
-    if (path === "/extension") {
-     extension.className += " active";
-    }
-};
+    <!-- LOCALIST COMMENT - START head_tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="https://pine.oregonstate.edu/sites/all/themes/doug_fir/favicon.ico" type="image/ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+    <!-- These will insert some CSS to hide or show elements based on our theme settings -->
+    <!-- LOCALIST COMMENT - PLACEHOLDER localist_styles -->
+    <!-- LOCALIST COMMENT - PLACEHOLDER localist_js -->
+    <script type="text/javascript">
+      window.onload = function () {
+        var path = window.location.pathname;
+        var bend = document.getElementById("bend");
+        var corvallis = document.getElementById("corvallis");
+        var newport = document.getElementById("newport");
+        var portland = document.getElementById("portland");
+        var extension = document.getElementById("extension");
+        var home = document.getElementById("home");
+        var cascadeslogo = document.getElementById("cascadeslogo");
+        var mainlogo = document.getElementById("mainlogo");
+        if (path === "/bend") {
+          bend.className += " active";
+          cascadeslogo.className += " active";
+          mainlogo.className += " remove";
+        }
+        if (path === "/corvallis") {
+          corvallis.className += " active";
+        }
+        if (path === "/") {
+          home.className += " active";
+        }
+        if (path === "/portland") {
+          portland.className += " active";
+        }
+        if (path === "/newport") {
+          newport.className += " active";
+        }
+        if (path === "/extension") {
+          extension.className += " active";
+        }
+      };
     </script>
     <script type="text/javascript">
-      jQuery(document).ready(function() {
-            jQuery('#gen-rss').click(function(e) {
-              let rssWidgetBuilder = new Slzr.Page.WidgetBuilder(window);
-          let rssUrl = rssWidgetBuilder.buildURL({format: 'html'});
-          rssUrl = rssUrl.replace('format=html', 'format=rss');
-          jQuery('#x-widget-rss').css({display: 'block'});
-          jQuery('#x-widget-rss-url').val(rssUrl);
+      jQuery(document).ready(function () {
+        jQuery("#gen-rss").click(function (e) {
+          let rssWidgetBuilder = new Slzr.Page.WidgetBuilder(window);
+          let rssUrl = rssWidgetBuilder.buildURL({ format: "html" });
+          rssUrl = rssUrl.replace("format=html", "format=rss");
+          jQuery("#x-widget-rss").css({ display: "block" });
+          jQuery("#x-widget-rss-url").val(rssUrl);
         });
       });
     </script>
-<!-- LOCALIST COMMENT - END head_tags -->
-</head>
-<body>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54WQT99"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-  <div class="kegan">
+    <!-- LOCALIST COMMENT - END head_tags -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54WQT99" height="0"
+        width="0" style="display: none; visibility: hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- LOCALIST COMMENT - START before_grid -->
+    <!-- OSU Top-Hat -->
+    <div id="osu-top-hat" class="new container-fluid">
+      <a id="mainlogo" class="active" href="https://oregonstate.edu"
+        ><img
+          src="https://oregonstate.edu/themes/osu/homepage/logo.svg"
+          alt="Oregon State University"
+      /></a>
+      <a id="cascadeslogo" href="https://osucascades.edu"
+        ><img
+          src="https://oregonstate.edu/themes/osu/homepage/logo.svg"
+          alt="Oregon State University"
+      /></a>
     </div>
-<!-- LOCALIST COMMENT - START before_grid -->
-<!-- OSU Top-Hat -->
-<div id="osu-top-hat" class="new container-fluid">
-  <a id="mainlogo" class="active" href="https://oregonstate.edu"><img src="https://oregonstate.edu/themes/osu/homepage/logo.svg"  alt="Oregon State University"/></a>
-  <a id="cascadeslogo" href="https://osucascades.edu"><img src="https://oregonstate.edu/themes/osu/homepage/logo.svg"  alt="Oregon State University"/></a>
-</div>
-  <span class="group-header"><h1><a href='https://events.oregonstate.edu'>Events Calendar</a></h1></span>
-</div>
-<div id='page-wrapper' class='container-fluid'>
-   <nav id="main-menu" class="main-menu">
-    <ul id="main-menu-ul" class="main-menu-ul">
-        <li id="home"><a href="http://events.oregonstate.edu">Home</a></li>
-        <li id="bend"><a href="/bend">Bend</a></li>
-        <li id="corvallis"><a href="/corvallis" title="">Corvallis</a></li>
-        <li id="newport"><a href="/newport">Newport</a></li>
-        <li id="portland"><a href="/portland">Portland</a></li>
-        <li id="academic"><a href="http://registrar.oregonstate.edu/osu-academic-calendar">Academic Calendar</a></li>
-    </ul>
-   </nav>
-<div class="content-wrapper">
-<div class="wrapper">
-<!-- LOCALIST COMMENT - END before_grid -->
-<!-- LOCALIST COMMENT - START body -->
-<!-- LOCALIST COMMENT - PLACEHOLDER user_menu -->
-<!-- LOCALIST COMMENT - PLACEHOLDER search_bar -->
-<!-- LOCALIST COMMENT - PLACEHOLDER top_bar -->
-<!-- LOCALIST COMMENT - PLACEHOLDER content -->
-<!-- LOCALIST COMMENT - END body -->
-<!-- LOCALIST COMMENT - START after_grid -->
-</div>
-</div>
-</div> <!-- /page-wrapper -->
-  <!-- Page Footer -->
-    <div id='footer'>
+    <div>
+      <span class="group-header"
+        ><h1>
+          <a href="https://events.oregonstate.edu">Events Calendar</a>
+        </h1></span
+      >
     </div>
-<!-- LOCALIST COMMENT - END after_grid -->
+    <div id="page-wrapper" class="container-fluid">
+      <nav id="main-menu" class="main-menu">
+        <ul id="main-menu-ul" class="main-menu-ul">
+          <li id="home"><a href="http://events.oregonstate.edu">Home</a></li>
+          <li id="bend"><a href="/bend">Bend</a></li>
+          <li id="corvallis"><a href="/corvallis" title="">Corvallis</a></li>
+          <li id="newport"><a href="/newport">Newport</a></li>
+          <li id="portland"><a href="/portland">Portland</a></li>
+          <li id="extension">
+            <a href="https://extension.oregonstate.edu/events">Extension</a>
+          </li>
+          <li id="academic">
+            <a href="http://registrar.oregonstate.edu/osu-academic-calendar"
+              >Academic Calendar</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="content-wrapper">
+        <div class="wrapper">
+          <!-- LOCALIST COMMENT - END before_grid -->
+          <!-- LOCALIST COMMENT - START body -->
+          <!-- LOCALIST COMMENT - PLACEHOLDER user_menu -->
+          <!-- LOCALIST COMMENT - PLACEHOLDER search_bar -->
+          <!-- LOCALIST COMMENT - PLACEHOLDER top_bar -->
+          <!-- LOCALIST COMMENT - PLACEHOLDER content -->
+          <!-- LOCALIST COMMENT - END body -->
+          <!-- LOCALIST COMMENT - START after_grid -->
+        </div>
+      </div>
+    </div>
+    <!-- /page-wrapper -->
+    <!-- Page Footer -->
+    <div id="footer"></div>
+    <!-- LOCALIST COMMENT - END after_grid -->
   </body>
+</html>
